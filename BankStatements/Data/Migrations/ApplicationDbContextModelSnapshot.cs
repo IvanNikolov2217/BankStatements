@@ -36,7 +36,7 @@ namespace BankStatements.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ExchangeTypes");
+                    b.ToTable("ExchangeTypes", (string)null);
 
                     b.HasData(
                         new
@@ -101,7 +101,7 @@ namespace BankStatements.Data.Migrations
 
                     b.HasIndex("TransactionTypeId");
 
-                    b.ToTable("Statements");
+                    b.ToTable("Statements", (string)null);
                 });
 
             modelBuilder.Entity("BankStatements.Data.Entities.TransactionType", b =>
@@ -118,7 +118,7 @@ namespace BankStatements.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("TransactionTypes");
+                    b.ToTable("TransactionTypes", (string)null);
 
                     b.HasData(
                         new

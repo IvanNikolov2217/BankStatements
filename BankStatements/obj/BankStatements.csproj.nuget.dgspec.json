@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\BankStatements\\BankStatements\\BankStatements.csproj": {}
+    "D:\\vs22\\BankThingies\\BankStatements\\BankStatements.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\BankStatements\\BankStatements\\BankStatements.csproj": {
+    "D:\\vs22\\BankThingies\\BankStatements\\BankStatements.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\BankStatements\\BankStatements\\BankStatements.csproj",
+        "projectUniqueName": "D:\\vs22\\BankThingies\\BankStatements\\BankStatements.csproj",
         "projectName": "BankStatements",
-        "projectPath": "D:\\Programming\\BankStatements\\BankStatements\\BankStatements.csproj",
-        "packagesPath": "C:\\Users\\Rady_NOTE\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\BankStatements\\BankStatements\\obj\\",
+        "projectPath": "D:\\vs22\\BankThingies\\BankStatements\\BankStatements.csproj",
+        "packagesPath": "C:\\Users\\Moni\\.nuget\\packages\\",
+        "outputPath": "D:\\vs22\\BankThingies\\BankStatements\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Rady_NOTE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Moni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +27,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +46,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.1, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.4, )"

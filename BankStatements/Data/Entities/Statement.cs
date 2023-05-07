@@ -26,9 +26,9 @@ namespace BankStatements.Data.Entities
         public decimal ExchangeRate { get; set; }
 
         [Required]
-        public ExchangeType ExchangeType { get; set; } //income, expense
+        public string ExchangeType { get; set; } //income, expense
 
-        public TransactionType TransactionType { get; set; } //type of transaction 
+        public string TransactionType { get; set; } //type of transaction 
 
         [Required]
         public int Number { get; set; }
